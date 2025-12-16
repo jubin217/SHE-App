@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "856894393084",
+    "firebase_url": "https://she-afa6a-default-rtdb.firebaseio.com",
+    "project_id": "she-afa6a",
+    "storage_bucket": "she-afa6a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856894393084:android:5c48d983826ec3d0092579",
+        "android_client_info": {
+          "package_name": "com.example.womenssafety"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYl9lGp1XHZwd8anc28d4HfsPDUWEtNhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856894393084:android:4ead8fd11c701f5c092579",
+        "android_client_info": {
+          "package_name": "com.example.womenssafetyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYl9lGp1XHZwd8anc28d4HfsPDUWEtNhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
