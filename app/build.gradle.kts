@@ -63,6 +63,8 @@ dependencies {
 
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
 
+    implementation("com.google.android.material:material:1.11.0")
+
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-auth")

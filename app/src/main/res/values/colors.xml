@@ -1,25 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Original colors -->
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <!-- ========== Material Design Colors ========== -->
+    <!-- Purple colors -->
+    <color name="purple_50">#F3E5F5</color>
+    <color name="purple_100">#E1BEE7</color>
+    <color name="purple_200">#CE93D8</color>
+    <color name="purple_300">#BA68C8</color>
+    <color name="purple_400">#AB47BC</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_600">#8E24AA</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="purple_800">#6A1B9A</color>
+    <color name="purple_900">#4A148C</color>
+    
+    <!-- Teal colors -->
+    <color name="teal_50">#E0F2F1</color>
+    <color name="teal_100">#B2DFDB</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_300">#4DB6AC</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_600">#00897B</color>
+    <color name="teal_700">#00796B</color>
+    <color name="teal_800">#00695C</color>
+    <color name="teal_900">#004D40</color>
     
     <!-- Basic colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <!-- App Colors -->
-    <color name="colorPrimary">#FF6B46C1</color>
-    <color name="colorPrimaryDark">#FF553C9A</color>
-    <color name="colorAccent">#FFFF4081</color>
+    <!-- ========== Legacy Compatibility Colors ========== -->
+    <color name="colorPrimary">@color/purple_500</color>
+    <color name="colorPrimaryDark">@color/purple_700</color>
+    <color name="colorAccent">@color/teal_200</color>
+    
+    <!-- ========== App Specific Colors ========== -->
+    <!-- Safety App Colors -->
+    <color name="emergency_red">#FFE53935</color>
+    <color name="safe_green">#FF4CAF50</color>
+    <color name="location_blue">#FF2196F3</color>
+    <color name="warning_orange">#FFFF9800</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="text_hint">#FFBDBDBD</color>
+    <color name="text_on_primary">@color/white</color>
+    <color name="text_on_secondary">@color/black</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FFF5F5F5</color>
+    <color name="background_dark">#FF121212</color>
+    <color name="surface_light">@color/white</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    
+    <!-- UI Elements -->
+    <color name="divider">#1F000000</color>
+    <color name="disabled">#42000000</color>
+    <color name="ripple">#1F000000</color>
+    <!-- Add these to your existing colors.xml file -->
+
+    <!-- Neutral Grays -->
+    <color name="gray">#FF757575</color>
+    <color name="light_gray">#FFE0E0E0</color>
+
+    <!-- App-specific Colors -->
     <color name="red_emergency">#FFE53935</color>
+    <!-- Add these to your colors.xml file -->
     <color name="green_safe">#FF4CAF50</color>
     <color name="blue_location">#FF2196F3</color>
-    <color name="gray">#FF9E9E9E</color>
-    <color name="light_gray">#F5F5F5</color>
-    <color name="dark_gray">#424242</color>
-    
 </resources>
