@@ -29,14 +29,16 @@
         
         <!-- Splash Activity -->
         <activity
-            android:name=".SplashActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Splash">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+             android:name=".SplashActivity"
+             android:exported="true"
+             android:theme="@style/Theme.Splash">
+
+          <intent-filter>
+               <action android:name="android.intent.action.MAIN"/>
+               <category android:name="android.intent.category.LAUNCHER"/>
+          </intent-filter>
         </activity>
+
 
         <!-- Login Activity -->
         <activity
@@ -46,6 +48,7 @@
         <!-- SignUp Activity -->
         <activity
             android:name=".auth.SignUpActivity"
+            android:theme="@style/Theme.WomensSafetyApp"
             android:exported="false" />
 
         <!-- Forgot Password Activity -->
